@@ -1,4 +1,5 @@
 # Project Manager
+## Welcome to the one and only Project Manager!
 ### Want to keep track of projects, create todos, write notes, chat with other devs & set reminders? You've come to the right place! This application does just that, and much more!
 * My GitHub: (https://github.com/AlexBall03-Portfolio)
 * My LinkedIn: (https://www.linkedin.com/in/alexball03)
