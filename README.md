@@ -1,3 +1,16 @@
+# Project Manager
+### Want to keep track of projects, create todos, write notes, chat with other devs & set reminders? You've come to the right place! This application does just that, and much more!
+* My GitHub: (https://github.com/AlexBall03-Portfolio)
+* My LinkedIn: (https://www.linkedin.com/in/alexball03)
+#### If you have any questions or comments, please put them in the Discussions Page of this repo! I am always wanting to learn more and grow as a developer, so please let me know how I am doing and how I can improve!
+
+<br />
+
+---
+---
+
+<br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
