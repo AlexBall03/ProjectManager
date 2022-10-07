@@ -1,12 +1,12 @@
 import './App.css';
-import Login from './Pages/Auth/Login/Login';
+import Auth from './Pages/Auth/Auth';
 
 function App() {
   return (
     <div className="App">
       {/* ----- Pages ----- */}
-      {/* Login / Signup */}
-      <Login />
+      {/* Authentication (Log In / Sign Up) */}
+      <Auth />
 
       {/* Dashboard */}
 
