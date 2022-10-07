@@ -1,9 +1,22 @@
 import './App.css';
+import Login from './Pages/Auth/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <h1>Project Manager</h1>
+      {/* ----- Pages ----- */}
+      {/* Login / Signup */}
+      <Login />
+
+      {/* Dashboard */}
+
+      {/* Projects */}
+
+      {/* Todos */}
+
+      {/* Notes */}
+
+      {/* Profile */}
     </div>
   );
 }
