@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Login() {
     return (
         <form className="Login">
@@ -6,14 +8,14 @@ function Login() {
                 <h2 className="form_Heading"><span>L</span>ogin<span>.</span></h2>
             </header>
 
-            <p>"<span className="indicate-required">*</span>" indicates "required"</p>
+            <p>"<span className="indicate-required">*</span>" indicates required</p>
 
             {/* Form */}
             <section className="form_Section">
                 {/* Email */}
                 <div className="email-input_Container input_Container">
                     <label htmlFor="user_Email"><span className="indicate-required">*</span>Email</label> <br />
-                    <input type="email" id="user_Email" placeholder='Your Email...' required />
+                    <input type="email" id="user_Email" autoFocus placeholder='Your Email...' required />
                 </div>
                 
                 {/* Password */}
@@ -34,6 +36,7 @@ function Login() {
                     <button type="submit" className="demo-account_Button btn">Business</button>
                 </div>
 
+                <p>Don't have an account? <Link className="link" to="/signup">Sign Up</Link> today! <br /> Or use one of the demo accounts above.</p> <br />
                 <p>Application built by: <a className='link' href="https://www.linkedin.com/in/alexball03/" rel="noreferrer" target="_blank">Alex ball</a></p>
             </footer>
         </form>

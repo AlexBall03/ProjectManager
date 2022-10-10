@@ -4,10 +4,12 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    text-align: center;
 }
 .Auth .auth_Main {
     position: relative;
-    top: -50px;
+    top: -2%;
     margin: auto auto;
     width: 500px;
     max-width: 95%;
@@ -21,6 +23,7 @@
 .Auth .auth_Header {
     width: 100%;
     padding: 20px;
+    /* margin-bottom: 10px; */
     text-align: center;
 }
 
@@ -38,7 +41,7 @@
 
 /* Indicate Required Notice */
 .Login > .Signup, span.indicate-required {
-    color: rgb(219, 101, 101);
+    color: rgb(207, 122, 122);
 } 
 
 

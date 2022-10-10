@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Signup() {
     return (
         <form className="Signup">
@@ -6,7 +8,7 @@ function Signup() {
                 <h2 className="form_Heading"><span>S</span>ignup<span>.</span></h2>
             </header>
 
-            <p>"<span className="indicate-required">*</span>" indicates "required"</p>
+            <p>"<span className="indicate-required">*</span>" indicates required</p>
 
             {/* Form */}
             <section className="form_Section">
@@ -46,6 +48,7 @@ function Signup() {
 
             {/* Form Footer */}
             <footer className="form_Footer">
+                <p>Already have an account? <Link className="link" to="/login">Log In</Link>!</p> <br />
                 <p>Application built by: <a className='link' href="https://www.linkedin.com/in/alexball03/" rel="noreferrer" target="_blank">Alex ball</a></p>
             </footer>
         </form>

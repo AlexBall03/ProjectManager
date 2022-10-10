@@ -12,10 +12,6 @@ function App() {
 
       {/* Projects */}
 
-      {/* Todos */}
-
-      {/* Notes */}
-
       {/* Profile */}
     </div>
   );
