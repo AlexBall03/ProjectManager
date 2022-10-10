@@ -1,0 +1,65 @@
+/* Auth */
+.Signup  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+
+/* Header */
+.Signup .signup_Header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Indicate Required Notice */
+.Signup span.indicate-required {
+    color: rgb(207, 122, 122);
+}
+
+
+/* Login Form Body */
+.Signup .signup_Form {
+    margin: auto auto;
+    width: 450px;
+    max-width: 95%;
+    padding:  18px;
+    background-color: var(--BackgroundColor-200);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Form */
+.Signup .form_Main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 330px;
+    max-width: 95%;
+}
+
+.Signup .input_Container {
+    text-align: left;
+}
+
+
+/* Form Footer */
+.Signup .form_Footer .demo-account_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 200px;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+}

@@ -8,6 +8,7 @@
   text-decoration: none;
 }
 
+
 /* ----- Variables ----- */
 :root {
   --PrimaryColor: #2d9b2d;
@@ -15,6 +16,7 @@
   --BackgroundColor-200: #f4f3f3;
   --TextColor: #3a3a3a;
 }
+
 
 /* ----- Global Styles ----- */
 /* Headings */
@@ -48,13 +50,19 @@ a.link {
 }
 
 
-/* Text / Labels */
+/* Text / Labels / Horizontle Rules */
 p, label {
   color: var(--TextColor);
+}
+hr {
+  border: 0.5px solid rgba(0, 0, 0, 0.199);
 }
 
 
 /* Forms */
+form {
+  border: 1px solid rgba(0, 0, 0, 0.126);
+}
 input {
     border-radius: 5px;
     border: 1px solid rgb(171, 171, 171);
@@ -62,12 +70,12 @@ input {
     width: 100%;
 }
 input:focus {
-    border: 1px solid var(--PrimaryColor) !important;
-    box-shadow: 0 0 3px var(--PrimaryColor) !important;
-    -moz-box-shadow: 0 0 3px var(--PrimaryColor) !important;
-    -webkit-box-shadow: 0 0 3px var(--PrimaryColor) !important; 
-    outline-offset: 0px !important;
-    outline: none !important;  
+    border: 1px solid var(--PrimaryColor);
+    box-shadow: 0 0 3px var(--PrimaryColor);
+    -moz-box-shadow: 0 0 3px var(--PrimaryColor);
+    -webkit-box-shadow: 0 0 3px var(--PrimaryColor); 
+    outline-offset: 0px;
+    outline: none;  
 }
 
 
@@ -77,7 +85,6 @@ button:hover, .btn:hover {
   background-color: var(--PrimaryColor);
   color: var(--BackgroundColor-100);
 }
-
 a.link:hover {
   border-color: var(--PrimaryColor);
 }
