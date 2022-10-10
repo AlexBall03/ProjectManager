@@ -8,6 +8,8 @@ function Login() {
                 <a href="/"><h1><span>Project</span>Manager<span>.</span></h1></a>
             </header>
 
+            <Link className="link" to="/dashboard">Dashboard</Link>
+
             <form className="login_Form">
                 {/* Form Header */}
                 <header className="form_Header">
